@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class ColorName {
 
     public static String getColorNameFromHexa(String hexa) throws IOException{
-        Scanner Colores = new Scanner(new File("C:\\Users\\emimo\\IdeaProjects\\TWIP-Colors\\src\\Colors.txt"));
+        Scanner Colores = new Scanner(new File("C:\\Users\\emimo\\IdeaProjects\\TWIP-Colors\\Colors.txt"));
 
         String Couleur = hexa;
         String color = "";
