@@ -80,7 +80,7 @@ public class Hexadecimal {
     }
 
     public static String getHexaFromColorName(String colorName)throws IOException {
-        Scanner Colores = new Scanner(new File("C:\\Users\\emimo\\IdeaProjects\\TWIP-Colors\\src\\Colors.txt"));
+        Scanner Colores = new Scanner(new File("C:\\Users\\emimo\\IdeaProjects\\TWIP-Colors\\Colors.txt"));
 
         String Couleur = colorName;
         String color = "";
